@@ -17,6 +17,21 @@ body{
 
 #h1{
     padding-bottom: 20px;
+    font-size: 1.5em;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 1.2em;
 }
 
 #sim{
@@ -27,6 +42,7 @@ body{
     border-radius: 10px;
     color: white;
     margin-left: -50px;
+    cursor: pointer;
 }
 #nao{
     position: absolute;
@@ -37,7 +53,10 @@ body{
     border-radius: 10px;
     color: white;
     margin-left: 10px;
+    cursor: pointer;
 }
+
+
 
 
 @media screen and (max-width: 768px) {
@@ -46,7 +65,8 @@ body{
     }
 
     img {
-        width: 85%;
+        width: 100%;
+        height: auto;
     }
     
     #h1{
@@ -59,7 +79,7 @@ body{
 
     #sim, #nao{
         height: 35px;
-        width: 80px;
+        width: 70px;
         font-size: 0.9em;
     }
 }
