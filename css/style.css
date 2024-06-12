@@ -39,37 +39,23 @@ body{
     margin-left: 10px;
 }
 
-@media screen and (max-width: 1024px) {
-    .painel {
-        width: 80%;
-    }
-}
 
 @media screen and (max-width: 768px) {
-    .painel {
-        width: 90%;
-        padding: 20px;
+    .painel{
+        width: 95%;
+    }
+    
+    #h1{
+        font-size: 1.2em;
     }
 
-    #sim, #nao {
-        width: 80px;
-        height: 50px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .painel {
-        width: 100%;
-        padding: 20px 10px;
+    h2 {
+        font-size: 1em;
     }
 
-    #sim, #nao {
-        width: 100px;
-        height: 50px;
-    }
-
-    #h1 {
-        font-size: 1.5em;
+    #sim, #nao{
+        height: 35px;
+        width: 70px;
+        font-size: 0.9em;
     }
 }
-
