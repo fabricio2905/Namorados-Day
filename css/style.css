@@ -42,7 +42,8 @@ body{
 
 @media screen and (max-width: 768px) {
     .painel{
-        width: 95%;
+        width: 85%;
+        height: 500px;
     }
     
     #h1{
@@ -55,7 +56,7 @@ body{
 
     #sim, #nao{
         height: 35px;
-        width: 70px;
+        width: 80px;
         font-size: 0.9em;
     }
 }
