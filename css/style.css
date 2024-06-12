@@ -44,6 +44,10 @@ body{
     .painel{
         width: 85%;
     }
+
+    img {
+        width: 85%;
+    }
     
     #h1{
         font-size: 1.2em;
